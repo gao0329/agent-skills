@@ -1,0 +1,30 @@
+# Credentials and local settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Local results and downloaded literature
+work/
+outputs/
+downloads/
+*.pdf
+文献清单.md
+文献索引.csv
+项目说明.md
+文献阅读.md
+.literature-download-*/
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
